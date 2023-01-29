@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {addTodo} from "../store"
+import {add as addTodo} from "../store"
 import ToDo from "../components/ToDo"
 
 function Home() {
